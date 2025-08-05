@@ -10,7 +10,7 @@
 
 
 ## CSS
-- Externo, Interno e In-line
+- Externo, Interno e In-line (Importante)
 - Sintaxe do código css
 
 
