@@ -1,0 +1,27 @@
+header {
+    height: 60px;
+    background-color: #4CAF50;
+}
+.flex-row {
+    display: flex;
+    height: 100%;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+aside {
+    height: 800px;
+    width: 200px;
+    background-color: #146797;
+}
+main {
+    width: 100%;
+    flex: 1;
+    height: 600px;
+    background-color: #630f4e;
+}
+footer {
+    height: 60px;
+    background-color: #86b333;
+}
