@@ -1,34 +1,34 @@
 #page {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 #flex-column {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 aside {
-    height: 100%;
-    width: 10%;
-    background-color: #15bf23;
+  height: 100%;
+  width: 10%;
+  background-color: #15bf23;
 }
 
 header {
-    height: 10%;
-    width: 100%;
-    background-color: #867d0b;
+  height: 10%;
+  width: 100%;
+  background-color: #867d0b;
 }
 
 main {
-    height: 80%;
-    width: 100%;
-    background-color: #e0abec;
+  height: 80%;
+  width: 100%;
+  background-color: #e0abec;
 }
 
 footer {
-    height: 10%;
-    width: 100%;
-    background-color: #28292d;
+  height: 10%;
+  width: 100%;
+  background-color: #28292d;
 }

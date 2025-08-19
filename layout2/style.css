@@ -1,24 +1,24 @@
 header {
-    height: 80px;
-    background-color: #867d0b;
+  height: 80px;
+  background-color: #867d0b;
 }
 
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 aside {
-    height: 700px;
-    width: 10%;
-    background-color: #15bf23;
+  height: 700px;
+  width: 10%;
+  background-color: #15bf23;
 }
 
 main {
-    width: 80%;
-    background-color: #e0abec;
+  width: 80%;
+  background-color: #e0abec;
 }
 
 footer {
-    height: 80px;
-    background-color: #28292d;
+  height: 80px;
+  background-color: #28292d;
 }
