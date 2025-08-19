@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  background: #ffd344ff;
+}
+
+aside {
+  width: 10vw;
+  background: #53ff87ff;
+}
+
+section {
+  display: flex;
+  height: 80vh;
+}
+
+main {
+  width: 90vw;
+  background: #ff6f6fff;
+}
+
+footer {
+  height: 10vh;
+  background: #8c44ffff;
+}
