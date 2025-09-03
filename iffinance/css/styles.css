@@ -28,6 +28,8 @@ header nav ul {
 
 header nav ul li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
 }
 
 header nav ul li a {
@@ -40,6 +42,16 @@ header nav ul li a:hover,
 .active {
   border-bottom: 2px solid #86ec11ff;
   color: #86ec11ff;
+}
+
+header nav ul li button {
+  padding: 10px 20px;
+  background-color: #86ec11ff;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 header img {
@@ -60,8 +72,8 @@ aside {
 
 .flexrow > main {
   width: 100%;
-  min-height: calc(100vh - 210px);
-  padding: 16px;
+  min-height: calc(100vh - 250px);
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -77,8 +89,12 @@ body > footer {
   margin: 0 auto;
   width: 1000px;
 }
-
-.flex .card {
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cards .card {
   min-width: 250px;
   height: 150px;
   background-color: #202020ff;
@@ -122,4 +138,59 @@ body > footer {
   justify-content: space-between;
   align-items: center;
   height: 30px;
+}
+
+.modal {
+  background: #070707a4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal main {
+  background: #ffffffff;
+  width: 300px;
+  border-radius: 8px;
+  padding: 20px 30px;
+
+  h1 {
+    color: #000;
+    margin: 0;
+  }
+
+  label {
+    color: #000;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+
+    input[type="text"],
+    select {
+      padding: 5px;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 1px solid #000000ff;
+      margin: 0 0 10px 0;
+    }
+    input[type="submit"],
+    button {
+      padding: 10px 20px;
+      background-color: #86ec11ff;
+      border: none;
+      border-radius: 20px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  }
 }
