@@ -42,7 +42,7 @@ function addTicker(event) {
       </footer>
       <div class="buttons">
         <button type="button" onclick="">Editar</button>
-        <button type="button" onclick="">Excluir</button>
+        <button type="button" onclick="deleteCard(event)">Excluir</button>
       </div>  
     </div>
   `;
@@ -63,4 +63,10 @@ function hideButtons(event) {
   const cardStock = event.target;
   const buttons = cardStock.querySelector(".buttons");
   buttons.style.display = "none";
+}
+
+function deleteCard(event) {
+  const buttonDelete = event.target;
+  const cardStock = buttonDelete.closest(".card");
+  cardStock.remove();
 }
