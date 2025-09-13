@@ -219,6 +219,4 @@ body > footer {
   color: black;
   font-weight: bold;
   cursor: pointer;
-  opacity: 0.9;
-  transition: opacity 0.3s;
 }
