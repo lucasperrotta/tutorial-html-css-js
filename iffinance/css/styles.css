@@ -75,9 +75,7 @@ aside {
   min-height: calc(100vh - 250px);
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
-  /* justify-content: space-around; */
-  /* align-items: center; */
+  align-items: flex-start;
 }
 
 body > footer {
