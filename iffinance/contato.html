@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>IFFinance - Contato</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper" style="height: 90px">
+        <div class="flexrow" style="height: 90px">
+          <img src="img/logo.svg" />
+          <h1><span style="color: #86ec11ff">IF</span>Finance</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="contato.html" class="active">Contato</a></li>
+            <li><button onclick="openModal('#add')">Adicionar</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div class="flexrow">
+        <main>
+          <h1>Contato</h1>
+
+          <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" />
+            <br />
+            <label for="senha">Senha:</label>
+            <input type="password" name="pass" id="pass" />
+            <br />
+            <input type="checkbox" name="news" id="news" />
+            <label for="news">Deseja receber nossos emails de novidades?</label>
+            <br />
+            <label for="message">Mensagem:</label>
+            <br />
+            <textarea name="message" id="message"></textarea>
+            <p>Qual sua bolsa preferida</p>
+            <input type="radio" name="bolsa" id="Nyse" value="Nyse" />
+            <label for="Nyse">Nyse</label>
+            <br />
+            <input type="radio" name="bolsa" id="Nasdaq" value="Nasdaq" />
+            <label for="Nasdaq">Nasdaq</label>
+            <br />
+            <input type="radio" name="bolsa" id="B3" value="B3" />
+            <label for="B3">B3</label>
+            <br />
+            <input type="submit" value="Enviar" />
+          </form>
+        </main>
+      </div>
+    </div>
+    <footer>
+      <div class="wrapper" style="height: 120px"></div>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+</html>
