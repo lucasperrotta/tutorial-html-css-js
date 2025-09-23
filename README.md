@@ -8,6 +8,7 @@
 - Tag Style
 - Tags de Texto: h1...h6, p
 - Destaque do Texto: b, i, span
+- Quebra de linha: br
 - div (id e class)
 - Tags Semânticas (header, footer, main, section, nav, aside)
 - Imagem (img - src, alt)
